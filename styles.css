@@ -1,0 +1,52 @@
+.columns-wrapper {
+  background: white;
+  width: 700px;
+  height: auto;
+  margin: 20px;
+  text-align: center
+}
+
+.column {
+  float: left;
+}
+
+.column-head {
+  background: -webkit-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background-size: 10px 10px, 10px 10px, 100% 100%;
+  background-repeat: repeat, repeat, no-repeat;
+  background-position: 1px 1px, 0px 0px, center center;
+  border-radius: 5px;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.column-line {
+  background: grey;
+  width: 2px;
+  height: 300px;
+  float: left;
+  margin: 10px auto;
+}
+
+.column-image {
+  margin: 10px auto;
+}
+
+.column-body {
+  width:  230px;
+}
+
+.column-text {
+  margin: 15px;
+  text-align: justify;
+}
+
+.column-image img {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+.columns-head p {
+  font-size: 20px;
+}
